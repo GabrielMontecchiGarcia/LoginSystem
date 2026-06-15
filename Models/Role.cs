@@ -11,7 +11,7 @@ namespace LoginSystem.Models
         public int Id { get; set; }
 
         [Required, MinLength(1), MaxLength(50)]
-        public string Nome { get; set; }
+        public string Name { get; set; }
 
         public ICollection<UserRole> UserRoles { get; set; }
     }
