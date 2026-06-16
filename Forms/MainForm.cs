@@ -34,7 +34,8 @@ namespace LoginSystem.Forms
 
         private void btnAdmin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Área administrativa (você pode listar usuários, etc.)");
+            var adminform = new AdminForm();
+            adminform.ShowDialog();
         }
     }
 }

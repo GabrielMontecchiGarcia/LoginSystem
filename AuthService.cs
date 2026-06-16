@@ -24,7 +24,7 @@ namespace LoginSystem
             using var db = new AppDBcontext();
             var user = db.Users
                          .Include(u => u.UserRoles)
-                         .ThenInclude(u => u.Role)
+                         .ThenInclude(ur => ur.Role)
                          .FirstOrDefault(u => u.Username == username);
             if (user == null)
                 return null;

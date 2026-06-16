@@ -38,7 +38,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(62, 62);
+            btnLogin.Location = new Point(72, 62);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(100, 23);
             btnLogin.TabIndex = 0;
@@ -66,14 +66,14 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(62, 9);
+            txtUsername.Location = new Point(72, 9);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(100, 23);
             txtUsername.TabIndex = 3;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(62, 33);
+            txtPassword.Location = new Point(72, 33);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(100, 23);
             txtPassword.TabIndex = 4;
@@ -81,7 +81,7 @@
             // lnkRegister
             // 
             lnkRegister.AutoSize = true;
-            lnkRegister.Location = new Point(62, 88);
+            lnkRegister.Location = new Point(72, 88);
             lnkRegister.Name = "lnkRegister";
             lnkRegister.Size = new Size(50, 15);
             lnkRegister.TabIndex = 5;
@@ -93,7 +93,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(217, 124);
             Controls.Add(lnkRegister);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);

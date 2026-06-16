@@ -30,6 +30,11 @@ namespace LoginSystem.Context
                 .HasOne(ur => ur.Role)
                 .WithMany(u => u.UserRoles)
                 .HasForeignKey(ur => ur.RoleId);
+
+            modelBuilder.Entity<Role>().HasData(
+                new Role { Id = 1, Name = "Admin" },
+                new Role { Id = 2, Name = "User" }
+                );
         }
     }
 }

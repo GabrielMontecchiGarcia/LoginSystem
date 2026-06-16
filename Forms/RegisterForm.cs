@@ -21,7 +21,7 @@ namespace LoginSystem.Forms
         private void LoadRoles()
         {
             using var db = new AppDBcontext();
-            var roles = db.Roles.Tolist();
+            var roles = db.Roles.ToList();
             cmbRole.DataSource = roles;
             cmbRole.DisplayMember = "Name";
             cmbRole.ValueMember = "Id";
